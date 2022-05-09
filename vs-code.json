@@ -1,12 +1,7 @@
 {
-    "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
-    "php.executablePath": "D:\\xampp\\php\\php.exe",
-    "window.zoomLevel": 0,
-    "open-php-html-js-in-browser.selectedBrowser": "Firefox",
     "editor.fontSize": 16,
-    "editor.fontFamily": "Source Code Pro",
+    // "editor.fontFamily": "Source Code Pro",
     "editor.tabSize": 2,
-    "files.autoSave": "afterDelay",
     "editor.wordWrap": "on",
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
@@ -20,15 +15,18 @@
     "breadcrumbs.enabled": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "liveSassCompile.settings.excludeList": [
-
-        "**/node_modules/**",
-        ".vscode/**"
-    ],
-    "liveSassCompile.settings.showOutputWindow": false,
-    "terminal.integrated.shell.windows": "E:\\Git\\install\\Git\\bin\\bash.exe",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+    },
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
@@ -43,6 +41,13 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "One Dark Pro",
     "oneDarkPro.editorTheme": "oneDarkPro",
-    "editor.minimap.enabled": false,
-    
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#ff9100",
+        "tab.unfocusedActiveBorder": "#000000"
+    },
+    "workbench.editor.enablePreview": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    // "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.wrapTabs": true,
+    "files.autoSave": "afterDelay",
 }
